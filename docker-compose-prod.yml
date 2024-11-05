@@ -1,0 +1,8 @@
+services:
+  node-app:
+    build:
+      context: .
+      targer: production
+    environment:
+      - NODE_ENV=production
+    command: npm start
